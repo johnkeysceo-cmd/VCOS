@@ -1,0 +1,47 @@
+# VCOS - Viral Content Operating System
+# Core dependencies
+
+# Web framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+
+# Audio/video processing
+librosa==0.10.1
+opencv-python==4.8.1.78
+numpy==1.24.3
+
+# Machine Learning
+scikit-learn==1.3.2
+pandas==2.1.4
+
+# Optional: GPU acceleration
+# torch==2.1.0  # Uncomment for PyTorch GPU support
+# tensorflow==2.15.0  # Uncomment for TensorFlow GPU support
+
+# Trend data (optional)
+# pytrends==4.9.2  # For Google Trends
+# tweepy==4.14.0  # For Twitter API
+# praw==7.7.1  # For Reddit API
+
+# Database
+sqlite3  # Built-in
+
+# Async utilities
+asyncio  # Built-in
+
+# Logging
+logging  # Built-in
+
+# Data processing
+json  # Built-in
+hashlib  # Built-in
+
+# HTTP requests for APIs
+requests==2.31.0
+
+# File watching for auto-processing
+watchdog==3.0.0
+
+# Note: FFmpeg should be installed system-wide or use bundled binaries
+# from generation_content/screenarc/binaries/

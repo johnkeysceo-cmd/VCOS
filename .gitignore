@@ -1,0 +1,93 @@
+# VCOS - Git Ignore File
+
+# Data directories (generated content)
+vcos/data/
+data/
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.gif
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+F:\OllamaTemp\*
+
+# Model files (too large)
+*.pkl
+*.h5
+*.pt
+*.pth
+models/*.pkl
+models/*.h5
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Embedded git repo (will handle as submodule or copy)
+generation_content/screenarc/.git/
+
+# Node modules (if any)
+node_modules/
+npm-debug.log*
+
+# Environment variables
+.env
+.env.local
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Pytest
+.pytest_cache/
